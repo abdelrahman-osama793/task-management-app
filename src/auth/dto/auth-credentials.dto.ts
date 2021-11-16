@@ -1,6 +1,5 @@
-import { IsString, Matches, MaxLength, MinLength } from 'class-validator';
-
 /* eslint-disable prettier/prettier */
+import { IsString, Matches, MaxLength, MinLength } from 'class-validator';
 export class AuthCredentialsDto {
   @IsString()
   @MinLength(4)
